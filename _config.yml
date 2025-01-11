@@ -1,3 +1,14 @@
+title: Lasse's Personal Website
+description: Welcome to my personal website.
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
-  - jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+
+# Navigation links (optional)
+navigation:
+  - title: Home
+    url: /
+
+# Other configuration options
+markdown: kramdown
+highlighter: rouge
